@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity(), CoroutineScope {
     private lateinit var userViewModel: UserViewModel
     private val TAG = "MainActivity"
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
